@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+
+.intro {
+    width: 100%;
+    height: 100vh;
+    background-image: linear- gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75), url('https://th.bing.com/th/id/R.1e01ac4068e7d424edc04c5080afdc98?rik=beQhbRMVLCDCSg&riu=http%3a%2f%2fwww.nutritionandwellnesscentre.co.uk%2fwp-content%2fuploads%2f2015%2f06%2fFotolia_67871939_M.jpg&ehk=qQy0VyUnSBHIr8kXDBp5EF43qQU3WdnAc87bNz9ClMg%3d&risl=&pid=ImgRaw&r=0'));
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 50px;
+}
+
+.content {
+    position: absolute;
+    top: 10%;
+    text-align: center;
+    width: 115%;
+}
+
+#fv {
+    color: red;
+    font-style: arial;
+}
+
+.section-p1 {
+    padding-top: 45%;
+    padding-bottom: 10%;
+    padding-left: 20%;
+}
+
+
+#btn {
+    background-color: black;
+    color: white;
+    position: relative;
+    margin-top: 12%;
+    width: 100px;
+    margin-left: 53%;
+}
+
+#btn button:hover {
+    background-color: red;
+}
+
+#intro .navbar button:hover {
+    color: black;
+}
+
+
+
+#newf {
+    display: flex;
+    height: 500px;
+    width: 600px;
+}
+
+#ab {
+    padding-right: 20%;
+    text-align: center;
+    font-size: xx-large;
+}
+
+#pab {
+    text-align: center;
+    padding-right: 30%;
+
+}
+
+#read {
+    background-color: red;
+    color: white;
+    display: flex;
+    margin-left: 275px;
+    margin-right: 20rem;
+}
+
+#read .read button:hover {
+    color: black;
+}
+
+#product {
+    background-color: antiquewhite;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.pr {
+    margin-left: 50px;
+}
+
+#pr {
+    padding-right: 600px;
+}
+
+#pman,
+#papp,
+#por,
+#ppa {
+    height: 200px;
+    width: 200px;
+}
+
+#hman,
+#happ,
+#hor,
+#hpa {
+    color: purple;
+}
+
+#col1,
+#col2,
+#col3,
+#col4 {
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.3);
+    border: 1px solid #cce7d0;
+    padding-top: 20px;
+    margin: 20px;
+}
+
+
+
+#col1,
+#col2,
+#col3,
+#col4 {
+    cursor: pointer;
+    transition: 1s ease-in-out;
+}
+
+.col:hover {
+    transform: scale(1.1);
+}
+
+#general {
+    background-color: white;
+}
+
+.intbox {
+    margin-top: 100px;
+    margin-left: 70px;
+    margin-right: 600px;
+    margin-bottom: 100px;
+    padding: 50px;
+    padding-bottom: 100px;
+    background-color: lightcoral;
+    box-sizing: border-box;
+    border-width: 500px;
+}
+
+#basket {
+    width: 350px;
+    height: 350px;
+    margin-left: 900px;
+
+}
+
+#head {
+    color: white;
+    font-weight: bolder;
+}
+
+#rm {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+#gallery {
+    background-color: lightblue;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+#name {
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#c1,
+#c2,
+#c3,
+#c4,
+#c5,
+#c6 {
+    height: 300px;
+    width: 300px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    margin: 20px;
+    border-radius: 30px;
+}
+
+#contact {
+    background-image: url('http://3.bp.blogspot.com/-3Bbwpqb5dlg/UmWSwRV6V4I/AAAAAAAAAWY/YxsvCwUIPmQ/s1600/fresh-fruits-vegetables-2419.jpg');
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+}
+
+#title {
+    padding-top: 120px;
+    padding-left: 120px;
+    font-weight: 60px;
+    font-size: 100px;
+    color: white;
+
+}
+
+#sb {
+    background-color: red;
+    color: white;
+    padding: 20px 20px;
+}
+
+#fc {
+    box-sizing: border-box;
+    background-color: white;
+    padding-bottom: 40px;
+
+}
+
+#nm,
+#phone,
+#email,
+#msg {
+    width: 400px;
+    height: 50px;
+    margin: 20px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.subscribe {
+    margin-top: 50px;
+    background-color: black;
+}
+
+#sub {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+#em {
+    text-align: center;
+    height: 60px;
+    width: 800px;
+    margin-left: 20%;
+}
+
+#menu {
+    color: white;
+    text-align: left;
+    padding-top: 20%;
+}
+
+#footer {
+    background-color: palevioletred;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+@media only screen and (max-width:1100px) {
+    .section-p1 {
+        padding-top: 80vh;
+        padding-left: 35%;
+        padding-bottom: 40px;
+    }
+
+    #newf {
+        height: 50vh;
+        width: 60vw;
+
+    }
+
+    #read {
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+        padding-left: 2vw;
+        margin-left: 20%;
+        margin-right: 50%;
+
+
+    }
+
+    #pr {
+        padding-right: 10%;
+
+    }
+
+    .intbox {
+        margin-right: 20%;
+        padding-bottom: 10%;
+    }
+
+    #map {
+        padding-right: 10vw;
+    }
+
+    #em {
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 70%;
+    }
+
+    #sb {
+        margin-left: 80%;
+        margin-top: 0.2vh;
+        padding: 10px 10px;
+
+    }
+
+    .logo {
+        width: 10vw;
+    }
+
+
+}
